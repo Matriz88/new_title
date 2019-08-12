@@ -2,6 +2,8 @@
 
 The new_title magic property!
 
+Change/Update the title of your document by editing `window.new_title`.
+
 ---
 
 ## 🔧 Install
@@ -19,7 +21,7 @@ or
 
 ## ✏️ How to use
 
-Change your title! 😀
+Change your title! 🙃
 
 ```js
 window.new_title = "I'm the new title of your document! ";
