@@ -2,7 +2,7 @@
   "name": "new_title",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/new_title.min.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,9 @@
   "devDependencies": {
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Matriz88/new_title"
   }
 }
