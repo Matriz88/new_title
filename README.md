@@ -16,7 +16,7 @@ require("new_title");
 ```
 or
 ```html
-<script src="https://unpkg.com/new_title@1.0.0/dist/new_title.min.js" />
+<script src="https://unpkg.com/new_title/dist/new_title.min.js" />
 ```
 
 ## ✏️ How to use
