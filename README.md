@@ -21,8 +21,24 @@ or
 
 ## ✏️ How to use
 
-Change your title! 🙃
+### Direct change
+
+Just assign a string! 🙃
 
 ```js
-window.new_title = "I'm the new title of your document! ";
+window.new_title = "New title! 🏆";
 ```
+
+### Change on event!
+
+Assign an array with 3 elements:
+
+1. new value you want to assign to the title
+2. event
+3. css selector
+
+```js
+ window.new_title = ['On click title!', 'click', '.myClass'];
+```
+
+This will add a listener to the element `.myClass` and the title will change when element is clicked!
