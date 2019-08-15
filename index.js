@@ -3,11 +3,10 @@ class New_title {
   constructor() {
     let self = this;
     Object.defineProperty(window, 'new_title', {
-      writable: false,
       set(val) {
-        if (typeof (val) === 'object' && val.length == 3) {
+        if (Array.isArray(val) && val.length == 3) {
           self.handleEvent(val);
-        } else {
+        } else if (typeof (val) === 'string') {
           self.changeTitle(val);
         }
       }
