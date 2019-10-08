@@ -1,8 +1,17 @@
 {
   "name": "new_title",
   "version": "1.0.2",
-  "description": "",
+  "description": "Change you document title!",
   "main": "dist/new_title.min.js",
+  "keywords": [
+    "title",
+    "document-title",
+    "change-title",
+    "vanilla",
+    "vanillajs",
+    "vanilla-javascript",
+    "event-listener"
+  ],
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
