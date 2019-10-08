@@ -2,18 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Example</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Example</title>
 </head>
 
 <body>
 
-    <script src="https://unpkg.com/new_title/dist/new_title.min.js"></script>
-    <script>
-        window.new_title = "New title! 🏆";
-    </script>
+  <button class="myButton">Change title!</button>
+
+  <script src="../dist/new_title.js"></script>
+  <script>
+    // change title immediately
+    window.new_title = "New title! 🏆";
+
+    // set an event listener on .myButton, when clicked it changes the title
+    window.new_title = ['On click title!', 'click', '.myButton'];
+  </script>
 </body>
 
 </html>
